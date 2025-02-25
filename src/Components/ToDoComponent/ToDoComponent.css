@@ -1,28 +1,48 @@
-.heading{
-    margin: 3% 25% 0% 25%;
-    width:50%;
-    background-color: black;
-    color:white;
+/* ToDoComponent.css */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background:black;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding:1%;
-    /* border:2px white solid; */
-}
-
-.heading input[type="text"]
-{
-width:70%;
-padding:2%;
-border:2px white solid;
-border-radius: 10px;
-margin-right: 10px;
-margin-bottom:2%;
-background-color: black;
-color: white;
-}
-
-.heading button[type="submit"]
-{
-padding: 1.8%;
-width:13%;
-border-radius: 10px;
-}
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .input-task {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input-task:focus {
+    border-color: #007bff;
+  }
+  
+  .add-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .add-button:hover {
+    background: #0056b3;
+  }
+  

@@ -76,15 +76,6 @@ const DisplayTodoComponent = () => {
   return (
     <div className="todo-container">
       {/* Input field and Add Button */}
-      <div className="input-container">
-        <input
-          type="text"
-          placeholder="Enter your to-do task here..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-        />
-        <button onClick={handleAddTask}>Add</button>
-      </div>
 
       {/* Task List */}
       {toDoItems.length === 0 ? (

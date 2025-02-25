@@ -7,7 +7,7 @@ const App = () => {
   return (
     <React.Fragment>
       <ToDoComponent/>
-      <DisplayTodoComponent/>
+            <DisplayTodoComponent/>
     </React.Fragment>
   )
 }
